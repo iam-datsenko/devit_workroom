@@ -123,7 +123,6 @@ function SignUpScreen({ navigation }) {
                 borderRadius: 15,
                 borderColor: "#D1D5DB",
                 marginRight: 10,
-                color: "red",
                 width: 90,
               }}
               defaultCode="UA"
@@ -143,19 +142,6 @@ function SignUpScreen({ navigation }) {
                 backgroundColor: "transparent",
               }}
             />
-
-            {/* <FormCode
-              autoFocusOnLoad={false}
-              codeInputFieldStyle={{
-                borderRadius: 15,
-                borderColor: "#D1D5DB",
-                color: "#000000",
-              }}
-              codeInputHighlightStyle={{ borderColor: "#FCD34D" }}
-              name="code"
-              pinCount={4}
-              style={{ width: "100%", height: 50, marginBottom: 8 }}
-            /> */}
 
             <FormField
               autoCapitalize="auto"

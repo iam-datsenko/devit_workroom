@@ -32,7 +32,7 @@ export default function App() {
 
   useEffect(() => {
     createTable();
-  }, [db]);
+  }, []);
 
   const onLayoutRootView = useCallback(async () => {
     if (isReady) {
